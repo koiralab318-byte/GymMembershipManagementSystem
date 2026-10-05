@@ -21,5 +21,17 @@ namespace GymMembershipManagementSystem
         {
             Application.Exit();
         }
+
+        private void btnAddMember_Click(object sender, EventArgs e)
+        {
+            using AddMemberForm form = new AddMemberForm();
+            form.ShowDialog();
+        }
+
+        private void btnViewMembers_Click(object sender, EventArgs e)
+        {
+            using ViewMembersForm form = new ViewMembersForm();
+            form.ShowDialog();
+        }
     }
 }

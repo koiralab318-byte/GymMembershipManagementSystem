@@ -52,6 +52,7 @@
             btnAddMember.TabIndex = 1;
             btnAddMember.Text = "Add Member";
             btnAddMember.UseVisualStyleBackColor = true;
+            btnAddMember.Click += btnAddMember_Click;
             // 
             // btnViewMembers
             // 
@@ -61,6 +62,7 @@
             btnViewMembers.TabIndex = 2;
             btnViewMembers.Text = "View Members";
             btnViewMembers.UseVisualStyleBackColor = true;
+            btnViewMembers.Click += btnViewMembers_Click;
             // 
             // btnExit
             // 
